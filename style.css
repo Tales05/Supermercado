@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+div.supermercado {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    position: relative;
+    margin: auto;
+    margin-top: 5rem;
+    padding: 1rem;
+    border: 1px solid black;
+    align-items: center;
+}
+
+div.supermercado h1 {
+    margin-bottom: 2rem;
+}
+
+div.principal {
+    width: 350px;
+}
+
+div.principal input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+input#valordoItem{
+    width: 100px;
+}
+
+input#quantidadeItem{
+    width: 100px;
+}
+
+select#tipoItem{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+div.subprincipal1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+button#concluirCompra {
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    font-size: 1rem;
+    width: 100px;
+    height: 45px;
+    background-color: rgb(206, 64, 206);
+    color: whitesmoke;
+    margin: 1rem auto;
+    font-weight: bold;
+}
+
+button#deletarCompra {
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    font-size: 1rem;
+    width: 100px;
+    height: 45px;
+    background-color: rgb(50, 50, 231);
+    color: whitesmoke;
+    margin: 1rem auto;
+    font-weight: bold;
+}
+
+div.listaCompra {
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: .5rem;
+    color: whitesmoke;
+    background-color: rgba(79, 184, 79, 0.932);
+    font-weight: bold;
+}
+

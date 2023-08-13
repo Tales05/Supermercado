@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supermercado</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="supermercado">
+        <h1>Supermercado</h1>
+        <div class="principal">
+            <div class="subprincipal1">
+                <input type="text" name="item" id="itemSuperMercado" placeholder="Item">
+                <input type="number" name="valor" id="valordoItem" placeholder="Valor">
+            </div>
+            <div class="subprincipal1">
+                <input type="number" name="quantidade" id="quantidadeItem" placeholder="Quantidade">
+                <select id="tipoItem">
+                <option value="selecione">Selecione</option>
+                <option value="Alimento">Alimento</option>
+                <option value="Vestuário">Vestuário</option>
+                <option value="Limpeza">Limpeza</option>
+                <option value="Brinquedos">Brinquedos</option>
+                <option value="Outros">Outros</option>
+            </select>
+            </div>
+        </div>
+        <div class="botoes">
+            <button id="concluirCompra">Concluir</button>
+            <button id="deletarCompra">Deletar</button>
+        </div>
+        <div class="resustadoCompra">
+        </div>
+    </div>
+    <script src="apps.js" type="module"></script>
+</body>
+</html>
